@@ -252,7 +252,7 @@ footer .kata-footer{
 
 
 .profile-title{
-  font-size: 18px !important;
+  font-size: 1.3rem !important;
   font-weight: 500;
   align-items: center;
 }
@@ -262,7 +262,7 @@ footer .kata-footer{
 }
 
 .isi-profile{
-  font-size: 12pt;
+  font-size: 1rem;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
   align-items: center;
@@ -271,7 +271,7 @@ footer .kata-footer{
 .svg-image object{
   width: 300px;
   height: 300px;
-  align-items: center;
+  
 }
 
 
@@ -553,6 +553,12 @@ img.center {
   .jenis-produk{
     margin-top: -18rem;
   }
+
+  .svg-image {
+    display: none;
+  }
+
+
 }
 
 

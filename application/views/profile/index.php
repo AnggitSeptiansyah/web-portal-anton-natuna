@@ -11,7 +11,11 @@
       </p>
     </div>
     <div class="col-md-6">
-      <img src="<?= base_url('') ?>" alt="">
+      <div class="svg-image">
+        <object data="<?= base_url('assets/img/svg/company.svg') ?>" type="image/svg+xml">
+          <img src="<?= base_url('assets/img/svg/company.svg') ?>" alt="Visi CV. Anton Natuna">
+        </object>
+      </div>
     </div>
   </div>
 
@@ -31,7 +35,6 @@
         Menjadi Perusahaan Percetakan Terintegrasi Baik Local maupun Nasional
       </div>
       
-
     </div>
   </div>
 
@@ -95,14 +98,5 @@
         </div>
       </div>
 
-      
-
-      
-
-      
-
   </div>
-
-  
-
 </div>

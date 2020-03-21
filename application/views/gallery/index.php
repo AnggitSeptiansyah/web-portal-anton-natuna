@@ -18,18 +18,5 @@
     </div>
   </div>
 
-  <div class="pekerja">
-    <div class="col-md-2 col-sm-3 box-size"><img class="<?= base_url('assets/img/') ?>" alt="Para pekerja di anton natuna" class="img-thumbnail" /></div>
-    <div class="col-md-2 col-sm-3 box-size"><img class="<?= base_url('assets/img/') ?>" alt="Para pekerja di anton natuna" class="img-thumbnail" /></div>
-    <div class="col-md-2 col-sm-3 box-size"><img class="<?= base_url('assets/img/') ?>" alt="Para pekerja di anton natuna" class="img-thumbnail" /></div>
-    <div class="col-md-2 col-sm-3 box-size"><img class="<?= base_url('assets/img/') ?>" alt="Para pekerja di anton natuna" class="img-thumbnail" /></div>
-    <div class="col-md-2 col-sm-3 box-size"><img class="<?= base_url('assets/img/') ?>" alt="Para pekerja di anton natuna" class="img-thumbnail" /></div>
-    <div class="col-md-2 col-sm-3 box-size"><img class="<?= base_url('assets/img/') ?>" alt="Para pekerja di anton natuna" class="img-thumbnail" /></div>
-    <div class="col-md-2 col-sm-3 box-size"><img class="<?= base_url('assets/img/') ?>" alt="Para pekerja di anton natuna" class="img-thumbnail" /></div>
-    <div class="col-md-2 col-sm-3 box-size"><img class="<?= base_url('assets/img/') ?>" alt="Para pekerja di anton natuna" class="img-thumbnail" /></div>
-    <div class="col-md-2 col-sm-3 box-size"><img class="<?= base_url('assets/img/') ?>" alt="Para pekerja di anton natuna" class="img-thumbnail" /></div>
-
-  </div>
-
   
 </div>
