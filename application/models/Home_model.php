@@ -11,12 +11,5 @@ class Home_model extends CI_Model {
     return $query->result();
   }
 
-  public function getDetailJenisProduct($id){
-    $this->db->get_where('jenis_product', ['id' => $id])->row();
-  }
-
-  public function getDetailProduct($id){
-    $this->db->get_where('produk', ['id_jenis_produk' => $id])->result();
-  }
 
 }

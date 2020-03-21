@@ -20,19 +20,6 @@ class Home extends CI_Controller {
     $this->load->view('templates/footer');
   }
 
-  public function getDetailProduct($id){
-
-    $data['judul'] = 'Detail Product';
-
-    $data['jenis_product'] = $this->home->getDetailJenisProduct($id);
-    $data['produk'] = $this->home->getDetailProduct($id);
-        
-    $this->load->view('templates/header', $data);
-    $this->load->view('templates/navbar');
-    $this->load->view('home/product', $data);
-    $this->load->view('templates/footer');
-  }
-
 }
 
 ?>

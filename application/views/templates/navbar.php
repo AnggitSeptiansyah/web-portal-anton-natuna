@@ -10,7 +10,7 @@
           <li><a href="<?= base_url('home') ?>">Home</a></li>
           <li><a href="<?= base_url('profile') ?>">Profile</a></li>
           <li><a href="<?= base_url('contact') ?>">Contact Us</a></li>
-          <li><a href="<?= base_url('design') ?>">Gallery</a></li>
+          <li><a href="<?= base_url('gallery') ?>">Gallery</a></li>
           <li><a href="<?= base_url('product') ?>">Product&nbsp;&nbsp;&nbsp;<i class="fas fa-chevron-down"></i></a></li>
         </ul>
       </nav>

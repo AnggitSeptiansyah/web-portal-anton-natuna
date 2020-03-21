@@ -1,19 +1,19 @@
 <div class="container jenis-produk">
   <h3 class="justify-content-center text-center title-section">Our Product</h3>
   <p class="text-center paraf-section"><a href="<?= base_url('product') ?>" class="mb-5">Product yang lainnya <i class="fas fa-chevron-right"></i></a></p>
-  <div class="row product-flex">
+    <div class="row slider">
       <?php foreach($jenis_product as $jenis_product) : ?>
-      <p><a href="<?= base_url('product/data_product/') . $jenis_product->id ?>">
-      <div class="col-md-2 col-sm-4 mb-3">
-        <div class="gambar-product justify-content-center text-center">
-          <img src="<?= base_url('assets/img/jenis_product/') . $jenis_product->gambar ?>" alt="">
+        <div class="product-flex">
+          <p><a href="<?= base_url('product/data_product/') . $jenis_product->id ?>">
+          <div class="col-md-2 col-sm-4 mb-3">
+            <div class="gambar-product">
+              <img src="<?= base_url('assets/img/jenis_product/') . $jenis_product->gambar ?>" alt="">
+            </div>
+            <h5 class="jenis-kata mt-3 text-center pr-1"><?= $jenis_product->nama_jenis ?></h5>
+          </div>
+          </a></p>
         </div>
-        <h5 class="jenis-kata mt-3 text-center pr-1"><?= $jenis_product->nama_jenis ?></h5>
-      </div>
-      </a></p>
       <?php endforeach ?>
-
-    </div>
   </div>
 </div>
 
@@ -22,8 +22,8 @@
     <div class="container">
       <h3 class="justify-content-center text-center title-text pondasi-budaya">5 FONDASI DASAR SISTEM DAN BUDAYA PELAYANAN CV. ANTON NATUNA</h3>
       <p class="text-center text-paraf">KAMI SIAP MENDUKUNG DAN MELAYANI APAPUN KEBUTUHAN SERTA RAGAM KEGIATAN ANDA UNTUK LEBIH SUKSES DAN MENCAPAI TARGET YANG DIHARAPKAN</p>
-      <div class="pondasi-logo">
-          <div class="row justify-content-end pondasi-logo-2">
+          <div class="row">
+            <div class="pondasi-logo slider">
               <div class="col-md-2 col-sm-4">
                 <div class="cicle-logo">
                   <span class="justify-content-center text-center"><i class="fas fa-chess-queen"></i></span>
@@ -64,22 +64,11 @@
                   <p>EFFICIENCY</p>
                 </div>
               </div>
-          </div>
-      </div>
+            </div>
+        </div>
     </div>
   </div>
 </div>
-
-
-<!-- <div class="service">
-  <div class="container">
-    <h2 class="text-center title-section">Our Service</h2>
-    <p class="text-center paraf-section">Berikut pelayanan - pelayanan yang anda dapatkan jika memesan di CV. Anton Natuna</p>
-
-
-
-  </div>
-</div> -->
 
 <section class="intro-area white" id="intro">
   <div class="container">

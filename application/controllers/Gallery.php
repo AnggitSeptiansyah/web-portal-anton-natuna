@@ -7,7 +7,7 @@ class Gallery extends CI_Controller {
     
     $this->load->view('templates/header', $data);
     $this->load->view('templates/navbar');
-    $this->load->view('design/index');
+    $this->load->view('gallery/index');
     $this->load->view('templates/footer');
   }
 }

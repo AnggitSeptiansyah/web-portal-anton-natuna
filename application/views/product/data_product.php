@@ -7,7 +7,7 @@
       <?php foreach($produk as $produk) : ?>
       <div class="col-md-3 col-lg-3 col-sm-6 image-section">
         <div class="image-detail-product">
-          <img src="<?= base_url('assets/img/produk/') . $produk->gambar ?>" alt="">
+          <img src="<?= base_url('assets/img/produk/') . $produk->gambar ?>" alt="<?= $produk->caption ?>" class="mx-auto d-block">
         </div>
         <h6 class="text-center"><?= $produk->nama_produk ?></h6>
       </div>

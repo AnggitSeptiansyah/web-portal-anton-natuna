@@ -106,7 +106,12 @@ nav a {
 }
 
 .pondasi-logo{
-  display: inline-block;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .title-text{
@@ -139,6 +144,7 @@ nav a {
   font-weight: 600;
   color: #fff;
   padding-top: 10px;
+  text-align: center;
 }
 
 
@@ -147,12 +153,15 @@ nav a {
 .gambar-product {
   height: 150px;
   width: 150px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .gambar-product img{
   height: 100%;
   width: 100%;
 }
+
 
 
 
@@ -207,6 +216,11 @@ footer .kata-footer{
   text-align: center;
 }
 
+.product-flex {
+  display: flex;
+  
+}
+
 .product-flex a {
   color: #424242;
 }
@@ -240,12 +254,24 @@ footer .kata-footer{
 .profile-title{
   font-size: 18px !important;
   font-weight: 500;
+  align-items: center;
 }
 
-.isi-profile {
+.profile-title h4{
+  align-items: center;
+}
+
+.isi-profile{
   font-size: 12pt;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
+  align-items: center;
+}
+
+.svg-image object{
+  width: 300px;
+  height: 300px;
+  align-items: center;
 }
 
 
@@ -423,13 +449,27 @@ img.center {
   color: #424242; 
 }
 
-.image-detail-product {
+.image-section {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
   height: 200px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.image-detail-product {
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background: #ddd;
 }
 
 .image-detail-product img {
+  margin-top: 20px;
   width: 100%;
   height: 100%;
+  background: #ddd;
+  margin-bottom: 10px;
 }
 
 
@@ -482,16 +522,31 @@ img.center {
     transition: 0.5s ease-in-out;
   }
 
-
-
-
   .menu-btn:hover {
     opacity: 0.7;
   }
 
-  .pondasi-logo-2{
-    align-items: center;
-    justify-content: center;
+  .pondasi-logo {
+    display: flex;
+    overflow: hidden;
+  }
+
+  .gambar-product {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .slider {
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: mandatory;
+  }
+
+  .cicle-logo {
+    margin-right: 0.5rem;
   }
 
   
