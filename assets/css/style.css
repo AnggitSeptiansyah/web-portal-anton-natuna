@@ -1,0 +1,596 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif !important;
+}
+
+
+/* Navigasi */
+
+
+ul {
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none !important;
+}
+
+
+.menu-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  display: none;
+}
+
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  line-height: 80px;
+  font-size: 15px;
+  padding: 30px 0;
+}
+
+.main-nav .logo {
+  width: 45px;
+}
+
+.main-nav .kata-logo {
+  width: 200px;
+  margin-right: 400px;
+}
+
+.main-nav ul {
+  display: flex;
+}
+
+.main-nav ul li {
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 16px;
+}
+
+.main-nav ul li a {
+  color: #ef6c00;
+  font-weight: 600;
+}
+
+.main-nav ul li a:hover{
+  color: #fb8c00;
+}
+
+.main-nav ul.main-menu {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.fa-chevron-down {
+  font-size: 12px;
+}
+
+
+
+
+/* Carousel */
+.carousel {
+  height: 34rem;
+  width: 100%
+}
+
+.carousel img{
+  width: 100%;
+  height: 100%;
+}
+
+.pondasi {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.isi-pondasi {
+  padding-top: 3rem;
+  margin: auto;
+  background: #212121;
+  opacity: 0.9;
+  padding-bottom: 3rem;
+}
+
+.pondasi {
+  background: url(../../assets/img/bg-img.jpeg);
+}
+
+.pondasi-logo{
+  display: inline-block;
+}
+
+.title-text{
+  color: #f5f5f5;
+}
+
+.text-paraf{
+  color: #fff;
+  margin-top: 2rem;
+}
+
+.cicle-logo{
+  font-size: 50px;
+  color: #fb8c00;
+  background: #fff;
+  border-radius: 100%;
+  text-align: center;  
+  width: 100px;
+  height: 100px;
+  padding-top: 0.5rem;
+  margin-right: 3rem;
+}
+
+.cicle-logo i{
+  font-size: 50px;
+}
+
+.kata-cicle{
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  padding-top: 10px;
+}
+
+
+/* Gambar */
+
+.gambar-product {
+  height: 150px;
+  width: 150px;
+}
+
+.gambar-product img{
+  height: 100%;
+  width: 100%;
+}
+
+
+
+/* Footer */
+
+footer {
+  line-height: 50px;
+}
+
+footer .kata-footer{
+  margin-top: 7rem;
+  font-size: 13px;
+  color: #757575;
+}
+
+.fa-chevron-right {
+  font-size: 13px;
+}
+
+
+/* Service */
+
+
+
+
+/* Jenis Produk */
+
+.title-section{
+  font-weight: 600;
+  color: #fb8c00;
+  margin-bottom: 1rem;
+}
+
+.paraf-section {
+  margin-bottom: 40px;
+}
+
+.paraf-section a{
+  font-weight: 400;
+  color: #424242;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.jenis-produk .paraf-section a:hover{
+  background: #fff;
+  border: 2px solid #fb8c00;
+  color: #fb8c00;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.product-flex a {
+  color: #424242;
+}
+
+.product-flex a:hover{
+  text-decoration: none;
+}
+
+.cicle-gambar img{
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 100%;
+}
+
+.jenis-kata{
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* Maps */
+
+#map {
+  height: 300px;
+  width: 100%;
+}
+
+
+.profile-title{
+  font-size: 18px !important;
+  font-weight: 500;
+}
+
+.isi-profile {
+  font-size: 12pt;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+
+/* Design */
+.under-const {
+  width: 100%;
+  height: 960px;
+}
+
+
+/* Underline */
+
+.sub-heading {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+
+.sub-heading p {
+  color: #818181;
+  display: inline-block;
+  padding: 0 0 20px;
+  position: relative;
+  line-height: 24px;
+  letter-spacing: 0.025em;
+}
+
+.sub-heading:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -3%;
+  height: 1px;
+  width: 6%;
+  background-color: #ef6c00;
+  z-index: 1;
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+}
+
+.sub-heading:hover:before {
+  width: 24%;
+  margin-left: -12%;
+}
+
+.sub-heading:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -12%;
+  width: 24%;
+  height: 1px;
+  background: #e1e1e1;
+
+}
+
+
+/* Gallery */
+
+.box-size{
+  width: 200px;
+  height: 200px;
+}
+
+.box-size img {
+  width: 150px;
+  height: 150px;
+}
+
+.design-box-size img{
+  height: 800px;
+  width: 300px;
+}
+
+.banner-box-size img {
+  height: 250px;
+  width: 700px;
+  margin-top: 30px;
+}
+
+/* Contact Us */
+.contact-us {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.contact-title {
+  font-size: 18px;
+  margin-bottom: 1.5rem;
+  margin-top: 3rem;
+  color: #ef6c00;
+  font-weight: 600;
+}
+
+.contact-letter {
+  border-bottom: 2px solid #fb8c00;
+  padding-bottom: 10px;
+}
+
+.contact-section p{
+  padding: 10px;
+  margin: 0;
+  margin-left: 1rem;
+}
+
+
+.contact-section .contact-icon{
+  margin-right: 1rem !important;
+}
+
+/* Product */
+
+.title-slide {
+  margin-bottom: 50px;
+}
+
+.product_row {
+  margin-left: 10px;
+}
+
+.sub-title {
+  color: #37474f;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.image-product {
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nama_product{
+  color: #424242;
+
+}
+
+.product-section:hover {
+  box-shadow: none;
+}
+
+
+img.center {
+  width: 100%;
+  height: 100%;  
+}
+
+.product-section {
+  background: #fff;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  padding: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.product-section .image-product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nama_product{
+  font-weight: 600;
+  text-align: center;
+}
+
+.sub-title-product {
+  font-weight: 600;
+  color: #424242; 
+}
+
+.image-detail-product {
+  height: 200px;
+}
+
+.image-detail-product img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/* Media */
+
+@media(max-width: 700px){
+  
+  .menu-btn {
+    display: block;
+  }
+
+  .menu-btn:hover {
+    opacity: 0.7;
+  }
+
+  .main-nav ul.right-menu {
+    margin-right: 50px;
+  }
+
+  .main-nav ul.right-menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #f2f2f2;
+    width: 50%;
+    height: 100%;
+    border-right: #ccc 1px solid;
+    padding-left: 30px;
+    opacity: 0.9;
+    transform: translateX(-500px);
+    transition: 0.5s ease-in-out;
+    z-index: 2;
+  }
+
+  .main-nav ul.right-menu li {
+    border-bottom: #ccc solid 1px;
+    font-size: 14px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .main-nav ul.right-menu li:last-child {
+    border-bottom: 0;
+  }
+
+  .main-nav ul.right-menu.show {
+    transform: translateX(-20px);
+    transition: 0.5s ease-in-out;
+  }
+
+
+
+
+  .menu-btn:hover {
+    opacity: 0.7;
+  }
+
+  .pondasi-logo-2{
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+  .jenis-produk{
+    margin-top: -18rem;
+  }
+}
+
+
+@media(max-width: 500px){
+  
+  p{
+    font-size: 14px;
+  }
+
+  .pondasi-budaya{
+    font-size: 20px;
+  }
+
+  .text-paraf{
+    font-size: 13px;
+  }
+
+  .jenis-produk{
+    margin-top: -20rem;
+  }
+
+  .jenis-kata {
+    text-align: center;
+  }
+
+}
+
+
+
+
+/* Intro */
+.intro-block {
+  position: relative;
+  background: #f7f7f7;
+  margin: 50px 0 0 0;
+  text-align: center;
+  padding: 70px 25px 40px;
+}
+
+.intro-block:hover,
+.intro-block.active {
+  background: #fb8c00;
+}
+
+.intro-block:hover {
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+
+/* Icon */
+.intro-block .intro-icon {
+  position: absolute;
+  top: -31px;
+  left: 50%;
+  margin-left: -31px;
+  color: #fff;
+}
+
+.intro-block .intro-icon {
+  width: 63px;
+  height: 63px;
+  font-size: 30px;
+  line-height: 2;
+  background: #ffa000;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px #ffe082;
+}
+
+.intro-block:hover .intro-icon,
+.intro-block.active .intro-icon {
+  background: white;
+  color: #ffa000;
+  box-shadow: 0 0 0 10px #ffb300;
+}
+
+/* Intro text */
+
+.intro-block h3 {
+  font-size: 18px;
+  color: #fb8c00;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.intro-block p {
+  color: #505050;
+}
+
+.intro-block:hover h3,
+.intro-block:hover p {
+  color: #f6f6f6;
+}
